@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center; 
+    word-spacing: 5px;
+    background-color: rgb(255, 255, 255);
+}
+
+.aside {
+    background-color: #ffffff;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.flower img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4%;
+    object-fit: contain;
+}
+
+@media (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+}
+    .left {
+        width: 100%;    
+}
+    .aside {
+        width: 87%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+}
+    .left {
+        width: 100%;
+}
+    .aside {
+        width: 83.7%;
+    }
+    .woow img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}

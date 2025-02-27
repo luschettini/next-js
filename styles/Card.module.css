@@ -1,0 +1,15 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%; 
+    height: 100%;
+    margin: 2rem;
+    padding: 1rem;
+    text-align: justify;
+    font-size: 100%;
+    border-radius: 15px;
+    color: #ffffff;
+    background-color: rgb(255, 173, 206);
+}
+    
